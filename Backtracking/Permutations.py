@@ -20,7 +20,6 @@ def permutations(arr: []) -> [[]]:
     for i in range(len(arr)):
         '''
         the pop method represents the change state, the rest is essentially dfs recursion
-        as we go through the recursive 
         '''
         state = arr.pop(0)          # removes and returns first element
         perms = permutations(arr)
